@@ -1,0 +1,5 @@
+compile :
+	@gcc .\src\main.c -o .\bin\main.exe -O1 -Wall -std=c99 -Wno-missing-braces -I .\include\ -L .\lib\ -lraylib -lgdi32 -lwinmm
+
+clear :
+	@cls
